@@ -26,5 +26,5 @@ def lambda_handler(event, context):
        print(e)
    return
    {
-       'message' : "Script execution completed. See Cloudwatch logs for complete output"
+       'message' : "Script execution completed. Please check Cloudwatch logs for complete output"
    }
